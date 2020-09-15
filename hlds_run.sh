@@ -22,8 +22,11 @@ SERVER_NAME="${SERVER_NAME:-Counter-Strike 1.6 Server}"
 START_MONEY="${START_MONEY:-800}"
 BUY_TIME="${BUY_TIME:-0.25}"
 FRIENDLY_FIRE="${FRIENDLY_FIRE:-1}"
+ROUNDTIME="${mp_roundtime:-2}"
+TIMELIMIT="${mp_timelimit:-15}"
+WINLIMIT="${mp_winlimit:-5}"
 
-OPTIONS=( "-game" "${GAME}" "+maxplayers" "${MAXPLAYERS}" "+map" "${START_MAP}" "+hostname" "\"${SERVER_NAME}\"" "+mp_startmoney" "${START_MONEY}" "+mp_friendlyfire" "${FRIENDLY_FIRE}" "+mp_buytime" "${BUY_TIME}")
+OPTIONS=( "-game" "${GAME}" "+maxplayers" "${MAXPLAYERS}" "+map" "${START_MAP}" "+hostname" "\"${SERVER_NAME}\"" "+mp_startmoney" "${START_MONEY}" "+mp_friendlyfire" "${FRIENDLY_FIRE}" "+mp_buytime" "${BUY_TIME}" "+mp_roundtime" "${ROUNDTIME}" "+mp_timelimit" "${TIMELIMIT}" "+mp_winlimit" "${WINLIMIT}")
 
 if [ -z "${RESTART_ON_FAIL}" ]; then
     OPTIONS+=('-norestart')
@@ -38,10 +41,8 @@ if [ -n "${RCON_PASSWORD}" ]; then
 fi
 
 if [ -n "${ADMIN_STEAM}" ]; then
-    echo "\"STEAM_${ADMIN_STEAM}\" \"\"  \"abcdefghijklmnopqrstu\" \"ce\"" > "/opt/hlds/cstrike/addons/amxmodx/configs/users.ini"
+    echo "\"STEAM_${ADMIN_STEAM}\" \"\"  \"abcdefghijklmnopqrstu\" \"ce\"" >> "/opt/hlds/cstrike/addons/amxmodx/configs/users.ini"
 fi
-
-#Crear /opt/hlds/cstrike/mapcycle.txt
 
 set > "${CONFIG_FILE}"
 
