@@ -1,0 +1,160 @@
+
+
+[2018-04-07 10:02:41] Loaded 0 apps from install folder "/root/Steam/steamapps\appmanifest_*.acf".
+[2018-04-07 10:02:45] Got 100 content servers from directory
+[2018-04-07 10:02:49] Loaded 0 apps from install folder "/opt/hlds/steamapps\appmanifest_*.acf".
+[2018-04-07 10:02:50] AppID 90 state changed : Update Required,
+[2018-04-07 10:02:50] AppID 70 state changed : Uninstalled, (Missing configuration)
+[2018-04-07 10:02:50] AppID 70 finished uninstall (Missing configuration)
+[2018-04-07 10:02:50] AppID 90 scheduler update : Priority First, legacy=no, restore="", timeSinceLastPlayed=1, appDisableSecondsRemaining=0
+[2018-04-07 10:02:50] AppID 90 state changed : Update Required,Update Queued,
+[2018-04-07 10:02:50] AppID 90 scheduler update : Priority First, legacy=no, restore="", timeSinceLastPlayed=1, appDisableSecondsRemaining=0
+[2018-04-07 10:02:50] AppID 90 state changed : Update Required,Update Queued,Update Running,
+[2018-04-07 10:02:50] AppID 90 update changed : Running,
+[2018-04-07 10:02:50] AppID 90 update changed : Running,Reconfiguring,
+[2018-04-07 10:02:50] Got 22 download sources via "/serverlist/10/20/" from valve714.steamcontent.com
+[2018-04-07 10:02:50] Created download interface of type 'CS' (1) to host valve704.steampipe.steamcontent.com (valve704.steamcontent.com)
+[2018-04-07 10:02:50] Created download interface of type 'CS' (1) to host valve718.steampipe.steamcontent.com (valve718.steamcontent.com)
+[2018-04-07 10:02:50] Created download interface of type 'CS' (1) to host valve716.steampipe.steamcontent.com (valve716.steamcontent.com)
+[2018-04-07 10:02:51] HTTP (CS,704) - valve704.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: valve704.steamcontent.com): AuthenticateDepotID (4) - Success!
+[2018-04-07 10:02:51] HTTP (CS,704) - valve704.steampipe.steamcontent.com (162.254.195.14:80 / 162.254.195.14:80, host: valve704.steamcontent.com): valve704.steampipe.steamcontent.com/depot/4/manifest/2723219039677249207/5?l=9&e=1523700171&h=889bf163f138c5dc331b93a444a0afcb7f54c41e - received 200 (OK) HTTP response
+[2018-04-07 10:02:51] HTTP (CS,704) - valve704.steampipe.steamcontent.com (162.254.195.14:80 / 162.254.195.14:80, host: valve704.steamcontent.com): AuthenticateDepotID (1006) - Success!
+[2018-04-07 10:02:51] HTTP (CS,704) - valve704.steampipe.steamcontent.com (162.254.195.14:80 / 162.254.195.14:80, host: valve704.steamcontent.com): valve704.steampipe.steamcontent.com/depot/1006/manifest/440706658004308074/5?l=12&e=1523700171&h=00dc1336a436e50f82c8c15e063984b65b981bb7 - received 200 (OK) HTTP response
+[2018-04-07 10:02:51] AppID 90 update changed : Running,
+[2018-04-07 10:02:51] AppID 90 update changed : Running,Validating,
+[2018-04-07 10:02:51] Validating files (new target,full) ...
+[2018-04-07 10:02:51] File validation finished: 25 files (69575104 bytes) total, 25 files (69575104 bytes) mismatched (48 msec).
+[2018-04-07 10:02:51] AppID 90 update changed : Running,
+[2018-04-07 10:02:51] AppID 90 update changed : Running,Preallocating,
+[2018-04-07 10:02:51] AppID 90 update changed : Running,
+[2018-04-07 10:02:51] AppID 90 update started : download 0/20539248, store 0/0, reuse 0/0, stage 0/69575104
+[2018-04-07 10:02:51] AppID 90 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2018-04-07 10:02:51] AppID 90 update changed : Running,Downloading,
+[2018-04-07 10:02:51] AppID 90 update changed : Running,Downloading,Staging,
+[2018-04-07 10:02:51] Downloading 38 chunks from depot 4
+[2018-04-07 10:02:51] HTTP (CS,716) - valve716.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: valve716.steamcontent.com): AuthenticateDepotID (4) - Success!
+[2018-04-07 10:02:51] HTTP (CS,718) - valve718.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: valve718.steamcontent.com): AuthenticateDepotID (4) - Success!
+[2018-04-07 10:02:54] Downloading 43 chunks from depot 1006
+[2018-04-07 10:02:54] HTTP (CS,716) - valve716.steampipe.steamcontent.com (162.254.195.26:80 / 162.254.195.26:80, host: valve716.steamcontent.com): AuthenticateDepotID (1006) - Success!
+[2018-04-07 10:02:54] HTTP (CS,718) - valve718.steampipe.steamcontent.com (162.254.195.28:80 / 162.254.195.28:80, host: valve718.steamcontent.com): AuthenticateDepotID (1006) - Success!
+[2018-04-07 10:02:55] AppID 90 update changed : Running,
+[2018-04-07 10:02:55] AppID 90 update changed : Running,Committing,
+[2018-04-07 10:02:55] AppID 90 file commit : 25 updated, 0 moved, 0 deleted
+[2018-04-07 10:02:55] AppID 90 state changed : Fully Installed,Update Queued,Update Running,
+[2018-04-07 10:02:55] AppID 90 finished update, mounted depots (BuildID 1944998) : 4 (2723219039677249207),1006 (440706658004308074),
+[2018-04-07 10:02:55] AppID 90 update changed : Running,
+[2018-04-07 10:02:55] AppID 90 update changed : None
+[2018-04-07 10:02:55] AppID 90 state changed : Fully Installed,Update Queued,
+[2018-04-07 10:02:55] AppID 70 state changed : Uninstalled, (Missing configuration)
+[2018-04-07 10:02:55] AppID 70 finished uninstall (Missing configuration)
+[2018-04-07 10:02:55] AppID 90 state changed : Fully Installed,
+[2018-04-07 10:02:55] AppID 90 scheduler finished : removed from schedule
+[2018-04-07 10:02:55] HTTP (CS,716) - valve716.steampipe.steamcontent.com (162.254.195.26:80 / 162.254.195.26:80, host: valve716.steamcontent.com): Closing connection
+[2018-04-07 10:02:55] HTTP (CS,718) - valve718.steampipe.steamcontent.com (162.254.195.28:80 / 162.254.195.28:80, host: valve718.steamcontent.com): Closing connection
+[2018-04-07 10:02:55] HTTP (CS,704) - valve704.steampipe.steamcontent.com (162.254.195.14:80 / 162.254.195.14:80, host: valve704.steamcontent.com): Closing connection
+
+
+[2018-04-07 10:02:58] Loaded 0 apps from install folder "/root/Steam/steamapps\appmanifest_*.acf".
+[2018-04-07 10:02:59] Loaded 1 apps from install folder "/opt/hlds/steamapps\appmanifest_*.acf".
+[2018-04-07 10:03:00] Got 100 content servers from directory
+[2018-04-07 10:03:00] Failed installing AppID 70 (No subscription)
+
+
+[2018-04-07 10:03:02] Loaded 0 apps from install folder "/root/Steam/steamapps\appmanifest_*.acf".
+[2018-04-07 10:03:02] Loaded 1 apps from install folder "/opt/hlds/steamapps\appmanifest_*.acf".
+[2018-04-07 10:03:03] Got 100 content servers from directory
+[2018-04-07 10:03:03] Failed installing AppID 10 (No subscription)
+
+
+[2018-04-07 10:03:05] Loaded 0 apps from install folder "/root/Steam/steamapps\appmanifest_*.acf".
+[2018-04-07 10:03:05] Loaded 1 apps from install folder "/opt/hlds/steamapps\appmanifest_*.acf".
+[2018-04-07 10:03:06] Got 100 content servers from directory
+[2018-04-07 10:03:06] AppID 70 state changed : Update Required,Shared Only,
+[2018-04-07 10:03:06] Dependency added: parent 70, child 90, depot 1
+[2018-04-07 10:03:06] AppID 90 state changed : Update Required,Fully Installed,
+[2018-04-07 10:03:06] AppID 10 state changed : Update Required,Shared Only,
+[2018-04-07 10:03:06] Dependency added: parent 10, child 90, depot 11
+[2018-04-07 10:03:06] Dependency added: parent 70, child 90, depot 71
+[2018-04-07 10:03:06] AppID 90 scheduler update : Priority First, legacy=no, restore="", timeSinceLastPlayed=1523095386, appDisableSecondsRemaining=0
+[2018-04-07 10:03:06] AppID 90 state changed : Update Required,Fully Installed,Update Queued,
+[2018-04-07 10:03:06] AppID 90 state changed : Update Required,Fully Installed,Update Queued,Update Running,
+[2018-04-07 10:03:06] AppID 70 state changed : Update Required,Shared Only,Update Running,
+[2018-04-07 10:03:06] AppID 10 state changed : Update Required,Shared Only,Update Running,
+[2018-04-07 10:03:06] AppID 90 update changed : Running,
+[2018-04-07 10:03:06] AppID 90 update changed : Running,Reconfiguring,
+[2018-04-07 10:03:07] Download system icon for AppID 10 to /opt/steam/steam/games/fc45c2591d95f081ff1268ad856297430fbcf686.zip
+[2018-04-07 10:03:07] Download system icon for AppID 70 to /opt/steam/steam/games/87bda297bfca8fa26490f4a35d634d978c7da319.zip
+[2018-04-07 10:03:07] Got 22 download sources via "/serverlist/10/20/" from valve714.steamcontent.com
+[2018-04-07 10:03:07] Created download interface of type 'CS' (1) to host valve720.steampipe.steamcontent.com (valve720.steamcontent.com)
+[2018-04-07 10:03:07] Created download interface of type 'CS' (1) to host valve703.steampipe.steamcontent.com (valve703.steamcontent.com)
+[2018-04-07 10:03:07] Created download interface of type 'CS' (1) to host valve704.steampipe.steamcontent.com (valve704.steamcontent.com)
+[2018-04-07 10:03:07] HTTP (CS,720) - valve720.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: valve720.steamcontent.com): AuthenticateDepotID (11) - Success!
+[2018-04-07 10:03:08] HTTP (CS,720) - valve720.steampipe.steamcontent.com (162.254.195.30:80 / 162.254.195.30:80, host: valve720.steamcontent.com): valve720.steampipe.steamcontent.com/depot/11/manifest/1532701504032862190/5?l=10&e=1523700187&h=d4f1dd67514bd14874a3d6900144e1f41017a876 - received 200 (OK) HTTP response
+[2018-04-07 10:03:08] HTTP (CS,704) - valve704.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: valve704.steamcontent.com): AuthenticateDepotID (1) - Success!
+[2018-04-07 10:03:09] HTTP (CS,704) - valve704.steampipe.steamcontent.com (162.254.195.14:80 / 162.254.195.14:80, host: valve704.steamcontent.com): AuthenticateDepotID (71) - Success!
+[2018-04-07 10:03:09] HTTP (CS,704) - valve704.steampipe.steamcontent.com (162.254.195.14:80 / 162.254.195.14:80, host: valve704.steamcontent.com): valve704.steampipe.steamcontent.com/depot/71/manifest/4270101312314046852/5?l=10&e=1523700188&h=28f295ee76fef0b38e4cb5b43e9a3fe1e9501246 - received 200 (OK) HTTP response
+[2018-04-07 10:03:09] HTTP (CS,704) - valve704.steampipe.steamcontent.com (162.254.195.14:80 / 162.254.195.14:80, host: valve704.steamcontent.com): valve704.steampipe.steamcontent.com/depot/1/manifest/5409401804038872403/5?l=9&e=1523700188&h=d6e383fbfa0c41d2a8a95e8189f7f59681eaaeee - received 200 (OK) HTTP response
+[2018-04-07 10:03:09] AppID 90 update changed : Running,
+[2018-04-07 10:03:09] AppID 90 update changed : Running,Validating,
+[2018-04-07 10:03:09] Validating files (new target,full) ...
+[2018-04-07 10:03:09] File validation finished: 1157 files (292550095 bytes) total, 1157 files (292550095 bytes) mismatched (124 msec).
+[2018-04-07 10:03:09] Validating files (new target,full) ...
+[2018-04-07 10:03:10] File validation finished: 3791 files (445111768 bytes) total, 3789 files (438136706 bytes) mismatched (346 msec).
+[2018-04-07 10:03:10] Validating files (new target,full) ...
+[2018-04-07 10:03:10] File validation finished: 0 files (0 bytes) total, 0 files (0 bytes) mismatched (49 msec).
+[2018-04-07 10:03:10] AppID 90 update changed : Running,
+[2018-04-07 10:03:10] AppID 90 update changed : Running,Preallocating,
+[2018-04-07 10:03:11] Found 2 pre-existing matching files for depot 71 (6975062 bytes)
+[2018-04-07 10:03:11] AppID 90 update changed : Running,
+[2018-04-07 10:03:11] AppID 10 update started : download 0/151117312, store 0/0, reuse 0/0, stage 0/292550095
+[2018-04-07 10:03:11] AppID 10 state changed : Update Required,Shared Only,Update Running,Update Started,
+[2018-04-07 10:03:11] AppID 90 update changed : Running,Downloading,
+[2018-04-07 10:03:11] AppID 90 update changed : Running,Downloading,Staging,
+[2018-04-07 10:03:11] AppID 70 update started : download 1723472/249791232, store 0/0, reuse 0/0, stage 6975062/445111768
+[2018-04-07 10:03:11] AppID 70 state changed : Update Required,Shared Only,Update Running,Update Started,
+[2018-04-07 10:03:11] AppID 90 update started : download 0/0, store 0/0, reuse 0/0, stage 0/0
+[2018-04-07 10:03:11] No changes detected, active: 4 (2723219039677249207),1006 (440706658004308074), target: 4 (2723219039677249207),1006 (440706658004308074),
+[2018-04-07 10:03:11] AppID 90 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2018-04-07 10:03:11] Downloading 1249 chunks from depot 11
+[2018-04-07 10:03:11] HTTP (CS,704) - valve704.steampipe.steamcontent.com (162.254.195.14:80 / 162.254.195.14:80, host: valve704.steamcontent.com): AuthenticateDepotID (11) - Success!
+[2018-04-07 10:03:11] HTTP (CS,703) - valve703.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: valve703.steamcontent.com): AuthenticateDepotID (11) - Success!
+[2018-04-07 10:03:20] Increasing target number of download connections to 4 (rate was 0.000, now 83.676)
+[2018-04-07 10:03:20] Created download interface of type 'CS' (1) to host valve717.steampipe.steamcontent.com (valve717.steamcontent.com)
+[2018-04-07 10:03:20] Downloading 3883 chunks from depot 1
+[2018-04-07 10:03:20] HTTP (CS,720) - valve720.steampipe.steamcontent.com (162.254.195.30:80 / 162.254.195.30:80, host: valve720.steamcontent.com): AuthenticateDepotID (1) - Success!
+[2018-04-07 10:03:20] HTTP (CS,703) - valve703.steampipe.steamcontent.com (162.254.195.13:80 / 162.254.195.13:80, host: valve703.steamcontent.com): AuthenticateDepotID (1) - Success!
+[2018-04-07 10:03:20] HTTP (CS,717) - valve717.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: valve717.steamcontent.com): AuthenticateDepotID (1) - Success!
+[2018-04-07 10:03:32] Increasing target number of download connections to 5 (rate was 83.676, now 111.530)
+[2018-04-07 10:03:32] Created download interface of type 'CS' (1) to host valve715.steampipe.steamcontent.com (valve715.steamcontent.com)
+[2018-04-07 10:03:32] HTTP (CS,715) - valve715.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: valve715.steamcontent.com): AuthenticateDepotID (1) - Success!
+[2018-04-07 10:03:34] Downloading 11 chunks from depot 71
+[2018-04-07 10:03:34] HTTP (CS,703) - valve703.steampipe.steamcontent.com (162.254.195.13:80 / 162.254.195.13:80, host: valve703.steamcontent.com): AuthenticateDepotID (71) - Success!
+[2018-04-07 10:03:34] HTTP (CS,720) - valve720.steampipe.steamcontent.com (162.254.195.30:80 / 162.254.195.30:80, host: valve720.steamcontent.com): AuthenticateDepotID (71) - Success!
+[2018-04-07 10:03:34] HTTP (CS,717) - valve717.steampipe.steamcontent.com (162.254.195.27:80 / 162.254.195.27:80, host: valve717.steamcontent.com): AuthenticateDepotID (71) - Success!
+[2018-04-07 10:03:34] AppID 90 update changed : Running,
+[2018-04-07 10:03:34] AppID 90 update changed : Running,Committing,
+[2018-04-07 10:03:34] AppID 10 file commit : 1197 updated, 0 moved, 0 deleted
+[2018-04-07 10:03:35] AppID 10 state changed : Fully Installed,Shared Only,Update Running,
+[2018-04-07 10:03:35] AppID 10 finished update, mounted depots (BuildID 1944948) : 11 (1532701504032862190),
+[2018-04-07 10:03:35] AppID 70 file commit : 3865 updated, 0 moved, 0 deleted
+[2018-04-07 10:03:35] AppID 70 state changed : Fully Installed,Shared Only,Update Running,
+[2018-04-07 10:03:35] AppID 70 finished update, mounted depots (BuildID 1995208) : 1 (5409401804038872403),71 (4270101312314046852),
+[2018-04-07 10:03:35] AppID 90 file commit : 0 updated, 0 moved, 0 deleted
+[2018-04-07 10:03:35] AppID 90 state changed : Fully Installed,Update Queued,Update Running,
+[2018-04-07 10:03:35] AppID 90 finished update, mounted depots (BuildID 1944998) : 4 (2723219039677249207),1006 (440706658004308074),
+[2018-04-07 10:03:35] AppID 90 update changed : Running,
+[2018-04-07 10:03:35] AppID 90 update changed : None
+[2018-04-07 10:03:35] AppID 10 state changed : Fully Installed,Shared Only,
+[2018-04-07 10:03:35] AppID 70 state changed : Fully Installed,Shared Only,
+[2018-04-07 10:03:35] AppID 90 state changed : Fully Installed,Update Queued,
+[2018-04-07 10:03:35] AppID 90 state changed : Fully Installed,
+[2018-04-07 10:03:35] AppID 90 scheduler finished : removed from schedule
+[2018-04-07 10:03:35] HTTP (CS,715) - valve715.steampipe.steamcontent.com (162.254.195.25:80 / 162.254.195.25:80, host: valve715.steamcontent.com): Closing connection
+[2018-04-07 10:03:35] HTTP (CS,717) - valve717.steampipe.steamcontent.com (162.254.195.27:80 / 162.254.195.27:80, host: valve717.steamcontent.com): Closing connection
+[2018-04-07 10:03:35] HTTP (CS,704) - valve704.steampipe.steamcontent.com (162.254.195.14:80 / 162.254.195.14:80, host: valve704.steamcontent.com): Closing connection
+[2018-04-07 10:03:35] HTTP (CS,703) - valve703.steampipe.steamcontent.com (162.254.195.13:80 / 162.254.195.13:80, host: valve703.steamcontent.com): Closing connection
+[2018-04-07 10:03:35] HTTP (CS,720) - valve720.steampipe.steamcontent.com (162.254.195.30:80 / 162.254.195.30:80, host: valve720.steamcontent.com): Closing connection
+
+
+[2020-09-15 04:33:07] Loaded 0 apps from install folder "/root/Steam/steamapps\appmanifest_*.acf".
+[2020-09-15 04:33:10] Got 54 content servers from directory

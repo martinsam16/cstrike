@@ -1,0 +1,44 @@
+
+
+[2018-04-07 10:02:41] Failed to read store 'install' from '/root/Steam/config/config.vdf.tmp'
+[2018-04-07 10:02:41] Failed to read store 'install' from '/root/Steam/config/config.vdf.tmp'
+[2018-04-07 10:02:41] Failed to read store 'install' from '/root/Steam/config/config.vdf.tmp'
+[2018-04-07 10:02:42] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2018-04-07 10:02:43] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2018-04-07 10:02:44] Failed to read store 'userlocal' from '/root/Steam/userdata/anonymous/config/localconfig.vdf.tmp'
+[2018-04-07 10:02:44] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2018-04-07 10:02:45] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2018-04-07 10:02:51] Flushed store 'install' to '/root/Steam/config/config.vdf'
+
+
+[2018-04-07 10:02:58] Loaded store 'install' from '/root/Steam/config/config.vdf' successfully
+[2018-04-07 10:02:58] Loaded store 'install' from '/root/Steam/config/config.vdf' successfully
+[2018-04-07 10:02:58] Loaded store 'install' from '/root/Steam/config/config.vdf' successfully
+[2018-04-07 10:02:59] Failed to read store 'userlocal' from '/root/Steam/userdata/anonymous/config/localconfig.vdf.tmp'
+[2018-04-07 10:02:59] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2018-04-07 10:03:00] Flushed store 'install' to '/root/Steam/config/config.vdf'
+
+
+[2018-04-07 10:03:02] Loaded store 'install' from '/root/Steam/config/config.vdf' successfully
+[2018-04-07 10:03:02] Loaded store 'install' from '/root/Steam/config/config.vdf' successfully
+[2018-04-07 10:03:02] Loaded store 'install' from '/root/Steam/config/config.vdf' successfully
+[2018-04-07 10:03:02] Failed to read store 'userlocal' from '/root/Steam/userdata/anonymous/config/localconfig.vdf.tmp'
+[2018-04-07 10:03:03] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2018-04-07 10:03:03] Flushed store 'install' to '/root/Steam/config/config.vdf'
+
+
+[2018-04-07 10:03:05] Loaded store 'install' from '/root/Steam/config/config.vdf' successfully
+[2018-04-07 10:03:05] Loaded store 'install' from '/root/Steam/config/config.vdf' successfully
+[2018-04-07 10:03:05] Loaded store 'install' from '/root/Steam/config/config.vdf' successfully
+[2018-04-07 10:03:05] Failed to read store 'userlocal' from '/root/Steam/userdata/anonymous/config/localconfig.vdf.tmp'
+[2018-04-07 10:03:06] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2018-04-07 10:03:07] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2018-04-07 10:03:08] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2018-04-07 10:03:09] Flushed store 'install' to '/root/Steam/config/config.vdf'
+
+
+[2020-09-15 04:33:07] Loaded store 'install' from '/root/Steam/config/config.vdf' successfully
+[2020-09-15 04:33:09] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2020-09-15 04:33:10] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2020-09-15 04:33:10] Flushed store 'install' to '/root/Steam/config/config.vdf'
+[2020-09-15 04:36:53] Flushed store 'install' to '/root/Steam/config/config.vdf'

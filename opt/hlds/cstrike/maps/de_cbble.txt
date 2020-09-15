@@ -1,0 +1,15 @@
+Cobble - Bomb/Defuse
+by DaveJ (http://www.johnsto.co.uk/)
+textures by MacMan (MacManInfi@aol.com)
+
+Counter-Terrorists: Prevent Terrorists
+from bombing Lord William's country 
+farmhouse. He has been the target of 
+assassination in light of recent government
+proposals.
+
+Terrorists: The Terrorist carrying the
+C4 must place the bomb at one of the two
+bomb sites around the map, thereby 
+killing Lord William and severely 
+damaging his home.

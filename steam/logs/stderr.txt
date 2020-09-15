@@ -1,0 +1,5 @@
+sh: 1: /opt/steam/linux32/../ubuntu12_64/gldriverquery: not found
+sh: 1: /opt/steam/linux32/../ubuntu12_32/gldriverquery: not found
+sh: 1: /opt/steam/linux32/../ubuntu12_64/vulkandriverquery: not found
+CApplicationManagerPopulateThread took 5 milliseconds to initialize (will have waited on CAppInfoCacheReadFromDiskThread)
+CAppInfoCacheReadFromDiskThread took 47 milliseconds to initialize

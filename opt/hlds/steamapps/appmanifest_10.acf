@@ -1,0 +1,31 @@
+"AppState"
+{
+	"appid"		"10"
+	"Universe"		"1"
+	"name"		"Counter-Strike"
+	"StateFlags"		"68"
+	"installdir"		"Half-Life"
+	"LastUpdated"		"1523095415"
+	"UpdateResult"		"0"
+	"SizeOnDisk"		"292550095"
+	"buildid"		"1944948"
+	"LastOwner"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"UserConfig"
+	{
+	}
+	"InstalledDepots"
+	{
+		"11"
+		{
+			"manifest"		"1532701504032862190"
+		}
+	}
+	"MountedDepots"
+	{
+		"11"		"1532701504032862190"
+	}
+}

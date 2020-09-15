@@ -1,0 +1,48 @@
+
+
+[2018-04-07 10:02:41] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_gl_64
+[2018-04-07 10:02:41] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_gl_64
+[2018-04-07 10:02:41] Unknown shader cache type, ignoring.
+[2018-04-07 10:02:42] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_gl_32
+[2018-04-07 10:02:42] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_gl_32
+[2018-04-07 10:02:42] Unknown shader cache type, ignoring.
+[2018-04-07 10:02:42] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_vk_64
+[2018-04-07 10:02:42] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_vk_64
+[2018-04-07 10:02:42] Unknown shader cache type, ignoring.
+[2018-04-07 10:02:43] Found 0 current buckets:
+
+
+[2018-04-07 10:02:58] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_gl_64
+[2018-04-07 10:02:58] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_gl_64
+[2018-04-07 10:02:58] Unknown shader cache type, ignoring.
+[2018-04-07 10:02:59] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_gl_32
+[2018-04-07 10:02:59] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_gl_32
+[2018-04-07 10:02:59] Unknown shader cache type, ignoring.
+[2018-04-07 10:02:59] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_vk_64
+[2018-04-07 10:02:59] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_vk_64
+[2018-04-07 10:02:59] Unknown shader cache type, ignoring.
+[2018-04-07 10:03:00] Found 0 current buckets:
+
+
+[2018-04-07 10:03:02] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_gl_64
+[2018-04-07 10:03:02] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_gl_64
+[2018-04-07 10:03:02] Unknown shader cache type, ignoring.
+[2018-04-07 10:03:02] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_gl_32
+[2018-04-07 10:03:02] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_gl_32
+[2018-04-07 10:03:02] Unknown shader cache type, ignoring.
+[2018-04-07 10:03:03] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_vk_64
+[2018-04-07 10:03:03] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_vk_64
+[2018-04-07 10:03:03] Unknown shader cache type, ignoring.
+[2018-04-07 10:03:03] Found 0 current buckets:
+
+
+[2018-04-07 10:03:05] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_gl_64
+[2018-04-07 10:03:05] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_gl_64
+[2018-04-07 10:03:05] Unknown shader cache type, ignoring.
+[2018-04-07 10:03:06] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_gl_32
+[2018-04-07 10:03:06] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_gl_32
+[2018-04-07 10:03:06] Unknown shader cache type, ignoring.
+[2018-04-07 10:03:06] Attempting to find current bucket; temporary dir: /root/Steam/shader_cache_temp_dir_vk_64
+[2018-04-07 10:03:06] Creating shader cache directory: /root/Steam/shader_cache_temp_dir_vk_64
+[2018-04-07 10:03:06] Unknown shader cache type, ignoring.
+[2018-04-07 10:03:07] Found 0 current buckets:

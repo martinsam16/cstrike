@@ -1,0 +1,13 @@
+Airstrip - Defusion
+by Barney (aka narby) (narby@counter-strike.net)
+
+Special thanks to Iikka Keranen, John Morello and Minh Le
+
+Counter-Terrorists: Prevent the terrorist
+planting the explosives in the airstrip 
+compound.
+
+Terrorists: Plant the c4 inside the airstrip
+compound and destroy the fuel and cargo areas.
+
+Other Notes: There are 2 bomb points in this map.

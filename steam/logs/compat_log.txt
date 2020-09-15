@@ -1,0 +1,12 @@
+
+
+[2018-04-07 10:02:41] No local tool list detected at /opt/steam/linux32/../compatibilitytools.vdf.
+
+
+[2018-04-07 10:02:58] No local tool list detected at /opt/steam/linux32/../compatibilitytools.vdf.
+
+
+[2018-04-07 10:03:02] No local tool list detected at /opt/steam/linux32/../compatibilitytools.vdf.
+
+
+[2018-04-07 10:03:05] No local tool list detected at /opt/steam/linux32/../compatibilitytools.vdf.
