@@ -1,0 +1,18 @@
+version: '2.0'
+services:
+  counter-strike:
+    build: .
+    environment:
+    - START_MAP=fy_icevalley
+    - MAXPLAYERS=32
+    - START_MONEY=800
+    - BUY_TIME=0.25
+    - FRIENDLY_FIRE=1
+    - ROUNDTIME=3
+    - TIMELIMIT=15
+    - WINLIMIT=5
+    - MAP_VOTE_RATIO=0.6
+    ports:
+    - "26900:26900"
+    - "27020:27020"
+    - "27015:27015"
