@@ -1,0 +1,12 @@
+global 
+{
+	ZOOM	1.30
+	ORIGIN	-606.13	913.56	-913
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_nowhere_xx.bmp"
+	HEIGHT	-913
+}
