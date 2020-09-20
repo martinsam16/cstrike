@@ -11,7 +11,7 @@ Example
 
 ```terraform
 environment_variables = {
-      "START_MAP"      = "fy_icevalley"
+      "START_MAP"      = "de_sibiria"
       "MAXPLAYERS"     = 32
       "START_MONEY"    = 800
       "BUY_TIME"       = 0.25

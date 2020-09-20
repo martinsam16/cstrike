@@ -36,15 +36,16 @@ resource "azurerm_container_group" "cstrike" {
     }
 
     environment_variables = {
-      "START_MAP"      = "fy_icevalley"
+      "START_MAP"      = "de_sibiria"
       "MAXPLAYERS"     = 32
       "START_MONEY"    = 800
       "BUY_TIME"       = 0.25
       "FRIENDLY_FIRE"  = 1
-      "ROUNDTIME"      = 2
-      "TIMELIMIT"      = 15
-      "WINLIMIT"       = 5
+      "ROUNDTIME"      = 1
+      "TIMELIMIT"      = 5
+      "WINLIMIT"       = 3
       "MAP_VOTE_RATIO" = 1
+      "MAP_FREEZETIME" = 1
       "ADMIN_STEAM"    = "0:1:1234566"
     }
   }

@@ -1,0 +1,14 @@
+// overview description file for fy_icevalley.bsp
+
+global 
+{
+	ZOOM	3.46
+	ORIGIN	128.00 	521.88	-329.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/fy_icevalley.bmp"
+	HEIGHT	-329
+}

@@ -26,8 +26,9 @@ ROUNDTIME="${mp_roundtime:-3}"
 TIMELIMIT="${mp_timelimit:-15}"
 WINLIMIT="${mp_winlimit:-5}"
 MAP_VOTE_RATIO="${mp_mapvoteratio:-0.6}"
+MAP_FREEZETIME="${mp_freezetime:-3}"
 
-OPTIONS=( "-game" "${GAME}" "+maxplayers" "${MAXPLAYERS}" "+map" "${START_MAP}" "+hostname" "\"${SERVER_NAME}\"" "+mp_startmoney" "${START_MONEY}" "+mp_friendlyfire" "${FRIENDLY_FIRE}" "+mp_buytime" "${BUY_TIME}" "+mp_roundtime" "${ROUNDTIME}" "+mp_timelimit" "${TIMELIMIT}" "+mp_winlimit" "${WINLIMIT}" "+mp_mapvoteratio" "${MAP_VOTE_RATIO}" )
+OPTIONS=( "-game" "${GAME}" "+maxplayers" "${MAXPLAYERS}" "+map" "${START_MAP}" "+hostname" "\"${SERVER_NAME}\"" "+mp_startmoney" "${START_MONEY}" "+mp_friendlyfire" "${FRIENDLY_FIRE}" "+mp_buytime" "${BUY_TIME}" "+mp_roundtime" "${ROUNDTIME}" "+mp_timelimit" "${TIMELIMIT}" "+mp_winlimit" "${WINLIMIT}" "+mp_mapvoteratio" "${MAP_VOTE_RATIO}" "+mp_freezetime" "${MAP_FREEZETIME}" )
 
 if [ -z "${RESTART_ON_FAIL}" ]; then
     OPTIONS+=('-norestart')
