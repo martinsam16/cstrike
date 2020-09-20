@@ -1,0 +1,15 @@
+// overview description file for de_sibiria.bsp
+// by B@K73R!U$
+
+global 
+{
+	ZOOM	1.58
+	ORIGIN	400 	880	-577
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_sibiria.bmp"
+	HEIGHT	-577
+}

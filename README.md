@@ -30,7 +30,7 @@ cd terraform/*provider*
 terraform init
 terraform plan
 terraform apply #type 'yes'
-terraform destroy #kill
+terraform destroy #kill type 'yes'
 ```
 
 
@@ -66,9 +66,9 @@ docker-compose down #kill
 
 
 - To add more maps
-  Download maps from [GAMEBANANA](https://gamebanana.com/maps/games/4254) and move the files with extension .bsp and .txt to the following path "opt/hlds/cstrike/maps"
+  Download maps from [GAMEBANANA](https://gamebanana.com/maps/games/4254) and move to path "opt/hlds/cstrike/*"
 
-  > (Re) Build the image and run it
+> (Re) Build the image and run it
 
 ## Attributions
 This project is based on [counter-strike-docker](https://github.com/artem-panchenko/counter-strike-docker), developed by [Artem Panchenko](https://github.com/artem-panchenko).

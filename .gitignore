@@ -1,2 +1,3 @@
 /terraform/azure/.terraform/plugins
 /terraform/azure/terraform.tfstate.backup
+/terraform/azure/.terraform.tfstate.lock.info

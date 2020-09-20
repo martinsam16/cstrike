@@ -36,14 +36,15 @@ resource "azurerm_container_group" "cstrike" {
     }
 
     environment_variables = {
-      "START_MAP"     = "de_aztec"
-      "MAXPLAYERS"    = 32
-      "START_MONEY"   = 800
-      "BUY_TIME"      = 0.25
-      "FRIENDLY_FIRE" = 1
-      "ROUNDTIME"     = 2
-      "TIMELIMIT"     = 15
-      "WINLIMIT"      = 5
+      "START_MAP"      = "de_cfport2"
+      "MAXPLAYERS"     = 32
+      "START_MONEY"    = 800
+      "BUY_TIME"       = 0.25
+      "FRIENDLY_FIRE"  = 1
+      "ROUNDTIME"      = 3
+      "TIMELIMIT"      = 15
+      "WINLIMIT"       = 5
+      "MAP_VOTE_RATIO" = 0.6
     }
   }
 
