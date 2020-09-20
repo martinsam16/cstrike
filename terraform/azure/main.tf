@@ -36,17 +36,19 @@ resource "azurerm_container_group" "cstrike" {
     }
 
     environment_variables = {
-      "START_MAP"      = "de_sibiria"
-      "MAXPLAYERS"     = 32
-      "START_MONEY"    = 800
-      "BUY_TIME"       = 0.25
-      "FRIENDLY_FIRE"  = 1
-      "ROUNDTIME"      = 1
-      "TIMELIMIT"      = 5
-      "WINLIMIT"       = 3
-      "MAP_VOTE_RATIO" = 1
-      "MAP_FREEZETIME" = 1
-      "ADMIN_STEAM"    = "0:1:1234566"
+      "START_MAP"           = "cs_inca"
+      "MAXPLAYERS"          = 32
+      "START_MONEY"         = 800
+      "BUY_TIME"            = 0.25
+      "FRIENDLY_FIRE"       = 1
+      "ROUNDTIME"           = 1
+      "TIMELIMIT"           = 5
+      "WINLIMIT"            = 0
+      "MAP_VOTE_RATIO"      = 0.1
+      "MAP_FREEZETIME"      = 1
+      "ADMIN_STEAM"         = "0:1:1234566"
+      "MAP_AUTOTEAMBALANCE" = 1
+      "MAP_MAXROUNDS"       = 0
     }
   }
 

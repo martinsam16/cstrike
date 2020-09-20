@@ -27,8 +27,10 @@ TIMELIMIT="${mp_timelimit:-15}"
 WINLIMIT="${mp_winlimit:-5}"
 MAP_VOTE_RATIO="${mp_mapvoteratio:-0.6}"
 MAP_FREEZETIME="${mp_freezetime:-3}"
+MAP_AUTOTEAMBALANCE="${mp_autoteambalance:-0}"
+MAP_MAXROUNDS="${mp_maxrounds:-0}"
 
-OPTIONS=( "-game" "${GAME}" "+maxplayers" "${MAXPLAYERS}" "+map" "${START_MAP}" "+hostname" "\"${SERVER_NAME}\"" "+mp_startmoney" "${START_MONEY}" "+mp_friendlyfire" "${FRIENDLY_FIRE}" "+mp_buytime" "${BUY_TIME}" "+mp_roundtime" "${ROUNDTIME}" "+mp_timelimit" "${TIMELIMIT}" "+mp_winlimit" "${WINLIMIT}" "+mp_mapvoteratio" "${MAP_VOTE_RATIO}" "+mp_freezetime" "${MAP_FREEZETIME}" )
+OPTIONS=( "-game" "${GAME}" "+maxplayers" "${MAXPLAYERS}" "+map" "${START_MAP}" "+hostname" "\"${SERVER_NAME}\"" "+mp_startmoney" "${START_MONEY}" "+mp_friendlyfire" "${FRIENDLY_FIRE}" "+mp_buytime" "${BUY_TIME}" "+mp_roundtime" "${ROUNDTIME}" "+mp_timelimit" "${TIMELIMIT}" "+mp_winlimit" "${WINLIMIT}" "+mp_mapvoteratio" "${MAP_VOTE_RATIO}" "+mp_freezetime" "${MAP_FREEZETIME}" "+mp_autoteambalance" "${MAP_AUTOTEAMBALANCE}" "+mp_maxrounds" "${MAP_MAXROUNDS}")
 
 if [ -z "${RESTART_ON_FAIL}" ]; then
     OPTIONS+=('-norestart')

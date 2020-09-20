@@ -1,0 +1,14 @@
+// overview description file for cs_staztec.bsp
+
+global 
+{
+	ZOOM	1.74
+	ORIGIN	-20.50 	226.00	316.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_staztec.bmp"
+	HEIGHT	-57
+}
