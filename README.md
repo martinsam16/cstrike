@@ -11,15 +11,16 @@ Example
 
 ```terraform
 environment_variables = {
-      "START_MAP"     = "fy_icevalley"
-      "MAXPLAYERS"    = 32
-      "START_MONEY"   = 800
-      "BUY_TIME"      = 0.25
-      "FRIENDLY_FIRE" = 1
-      "ROUNDTIME"     = 3
-      "TIMELIMIT"     = 15
-      "WINLIMIT"      = 5
-      "MAP_VOTE_RATIO" = 0.6
+      "START_MAP"      = "fy_icevalley"
+      "MAXPLAYERS"     = 32
+      "START_MONEY"    = 800
+      "BUY_TIME"       = 0.25
+      "FRIENDLY_FIRE"  = 1
+      "ROUNDTIME"      = 2
+      "TIMELIMIT"      = 15
+      "WINLIMIT"       = 5
+      "MAP_VOTE_RATIO" = 1
+      "ADMIN_STEAM"    = "0:1:1234566"
     }
 ```
 
