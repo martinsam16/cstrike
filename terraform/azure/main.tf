@@ -49,6 +49,7 @@ resource "azurerm_container_group" "cstrike" {
       "ADMIN_STEAM"         = "0:1:1234566"
       "MAP_AUTOTEAMBALANCE" = 1
       "MAP_MAXROUNDS"       = 0
+      "USE_VOTEMAP"         = "y"
     }
   }
 
