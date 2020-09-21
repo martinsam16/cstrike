@@ -50,4 +50,5 @@ fi
 
 set > "${CONFIG_FILE}"
 
+source "/bin/extract_maps.bash"
 exec "${EXECUTABLE}" "${OPTIONS[@]}" "${EXTRA_OPTIONS[@]}"

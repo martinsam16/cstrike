@@ -13,6 +13,7 @@ services:
     - WINLIMIT=5
     - MAP_VOTE_RATIO=0.6
     - ADMIN_STEAM=0:1:1234566
+    - USE_VOTEMAP=y
     ports:
     - "26900:26900"
     - "27020:27020"

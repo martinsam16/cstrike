@@ -1,7 +1,6 @@
 # Counter Strike 1.6 🎮
+
 [![Docker image size](https://img.shields.io/docker/image-size/malditoidealismo/counter-strike)](https://hub.docker.com/r/malditoidealismo/counter-strike)
-
-
 
 ## Terraform
 
@@ -34,7 +33,6 @@ terraform apply #type 'yes'
 terraform destroy #kill type 'yes'
 ```
 
-
 ## Docker
 
 > Pass the environment variables defined above as appropriate
@@ -64,7 +62,6 @@ docker-compose down #kill
 
 - To add more options
   Add more variables and options in hlds_run.sh according to [Half-Life and Counter-Strike CVar list](http://txdv.github.io/cstrike-cvarlist/) with category "server".
-
 
 - To add more maps
   Download maps from [GAMEBANANA](https://gamebanana.com/maps/games/4254) and move to path "opt/hlds/cstrike/*"

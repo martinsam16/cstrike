@@ -1,0 +1,7 @@
+cs_nokiasauna
+The original sequel to cs_sauna by H. Bigwood aka klm-
+
+Terrorists have kidnapped two members
+of the city council and are keeping them
+in the local swimming hall's sauna.
+The CT forces must free them.
