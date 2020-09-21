@@ -76,8 +76,9 @@ This project is based on [counter-strike-docker](https://github.com/artem-panche
 
 ## Changes from original project
 
-- Added new maps.
-- Added new parameters in run script.
+- Steamcmd download and update error solution: local files.
+- Extract names from maps and configure automatically.
 - Terraformed.
 - Docker compose.
-- Steamcmd download and update error solution: local files.
+- Added new maps.
+- Added new parameters in run script.

@@ -2,8 +2,8 @@ Team_Select
 {
 \ySelect a team\w
 
-1. Sendero Luminoso
-2. MRTA
+1. Terrorist Force
+2. Counter-Terrorist Force
 
 5. Auto-select
 }
@@ -76,9 +76,9 @@ Terrorist_Select
 \ySelect your appearance\w
 
 1. Phoenix Connexion
-2. Eber
-3. Avenger
-4. Guerillero
+2. Elite Crew
+3. Arctic Avengers
+4. Guerilla Warfare
 
 5. Auto-select
 }
