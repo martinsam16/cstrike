@@ -50,6 +50,9 @@ resource "azurerm_container_group" "cstrike" {
       "MAP_AUTOTEAMBALANCE" = 1
       "MAP_MAXROUNDS"       = 0
       "USE_VOTEMAP"         = "y"
+      "ADMIN_STEAM"         = "martinsam"
+      "RCON_PASSWORD"       = "abcdefghijk"
+      #"SERVER_PASSWORD"     = "abcdefghijk"
     }
   }
 
