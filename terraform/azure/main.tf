@@ -36,22 +36,24 @@ resource "azurerm_container_group" "cstrike" {
     }
 
     environment_variables = {
-      "START_MAP"           = "cs_inca"
+      "START_MAP"           = "de_aztec"
+      "SERVER_NAME"         = "Counter-Strike 1.6 Server"
       "MAXPLAYERS"          = 32
-      "START_MONEY"         = 800
+      "START_MONEY"         = 1200
       "BUY_TIME"            = 0.25
       "FRIENDLY_FIRE"       = 1
-      "ROUNDTIME"           = 1
-      "TIMELIMIT"           = 5
-      "WINLIMIT"            = 0
-      "MAP_VOTE_RATIO"      = 0.1
+      "MAP_AUTOKICK"        = 1
+      "TIMELIMIT"           = 15
+      "MAP_MAXROUNDS"       = 5
+      "ROUNDTIME"           = 5
+      "WINLIMIT"            = 5
+      "MAP_VOTE_RATIO"      = 0.6
       "MAP_FREEZETIME"      = 1
       "ADMIN_STEAM"         = "0:1:1234566"
       "MAP_AUTOTEAMBALANCE" = 1
-      "MAP_MAXROUNDS"       = 0
       "USE_VOTEMAP"         = "y"
       "ADMIN_STEAM"         = "martinsam"
-      "RCON_PASSWORD"       = "abcdefghijk"
+      "RCON_PASSWORD"       = "123456789"
       #"SERVER_PASSWORD"     = "abcdefghijk"
     }
   }

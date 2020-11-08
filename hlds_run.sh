@@ -22,15 +22,16 @@ SERVER_NAME="${SERVER_NAME:-Counter-Strike 1.6 Server}"
 START_MONEY="${START_MONEY:-800}"
 BUY_TIME="${BUY_TIME:-0.25}"
 FRIENDLY_FIRE="${FRIENDLY_FIRE:-1}"
-ROUNDTIME="${mp_roundtime:-3}"
-TIMELIMIT="${mp_timelimit:-15}"
-WINLIMIT="${mp_winlimit:-5}"
-MAP_VOTE_RATIO="${mp_mapvoteratio:-0.6}"
-MAP_FREEZETIME="${mp_freezetime:-3}"
-MAP_AUTOTEAMBALANCE="${mp_autoteambalance:-0}"
-MAP_MAXROUNDS="${mp_maxrounds:-0}"
+ROUNDTIME="${ROUNDTIME:-5}"
+TIMELIMIT="${TIMELIMIT:-15}"
+WINLIMIT="${WINLIMIT:-5}"
+MAP_VOTE_RATIO="${MAP_VOTE_RATIO:-0.6}"
+MAP_FREEZETIME="${MAP_FREEZETIME:-3}"
+MAP_AUTOTEAMBALANCE="${MAP_AUTOTEAMBALANCE:-0}"
+MAP_MAXROUNDS="${MAP_MAXROUNDS:-0}"
+MAP_AUTOKICK="${MAP_AUTOKICK:-0}"
 
-OPTIONS=( "-game" "${GAME}" "+maxplayers" "${MAXPLAYERS}" "+map" "${START_MAP}" "+hostname" "\"${SERVER_NAME}\"" "+mp_startmoney" "${START_MONEY}" "+mp_friendlyfire" "${FRIENDLY_FIRE}" "+mp_buytime" "${BUY_TIME}" "+mp_roundtime" "${ROUNDTIME}" "+mp_timelimit" "${TIMELIMIT}" "+mp_winlimit" "${WINLIMIT}" "+mp_mapvoteratio" "${MAP_VOTE_RATIO}" "+mp_freezetime" "${MAP_FREEZETIME}" "+mp_autoteambalance" "${MAP_AUTOTEAMBALANCE}" "+mp_maxrounds" "${MAP_MAXROUNDS}")
+OPTIONS=( "-game" "${GAME}" "+maxplayers" "${MAXPLAYERS}" "+map" "${START_MAP}" "+hostname" "\"${SERVER_NAME}\"" "+mp_startmoney" "${START_MONEY}" "+mp_friendlyfire" "${FRIENDLY_FIRE}" "+mp_buytime" "${BUY_TIME}" "+mp_roundtime" "${ROUNDTIME}" "+mp_timelimit" "${TIMELIMIT}" "+mp_winlimit" "${WINLIMIT}" "+mp_mapvoteratio" "${MAP_VOTE_RATIO}" "+mp_freezetime" "${MAP_FREEZETIME}" "+mp_autoteambalance" "${MAP_AUTOTEAMBALANCE}" "+mp_maxrounds" "${MAP_MAXROUNDS}" "+mp_autokick" "${MAP_AUTOKICK}")
 
 if [ -z "${RESTART_ON_FAIL}" ]; then
     OPTIONS+=('-norestart')

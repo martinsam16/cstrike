@@ -12,6 +12,7 @@
 | START_MONEY          | 800 |
 | BUY_TIME             | 0.25 |
 | FRIENDLY_FIRE        | 1 |
+| MAP_AUTOKICK         | 0 |
 | ROUNDTIME            | 3 |
 | TIMELIMIT            | 15 |
 | WINLIMIT             | 5 |
