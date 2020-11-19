@@ -35,15 +35,16 @@ resource "azurerm_container_group" "cstrike" {
       protocol = "UDP"
     }
 
+    #ToDo Extract env from file
     environment_variables = {
       "START_MAP"           = "de_aztec"
       "SERVER_NAME"         = "Counter-Strike 1.6 Server"
       "MAXPLAYERS"          = 32
-      "START_MONEY"         = 1200
-      "BUY_TIME"            = 0.25
+      "START_MONEY"         = 800
+      "BUY_TIME"            = 0.30
       "FRIENDLY_FIRE"       = 1
       "MAP_AUTOKICK"        = 1
-      "TIMELIMIT"           = 15
+      "TIMELIMIT"           = 5
       "MAP_MAXROUNDS"       = 5
       "ROUNDTIME"           = 5
       "WINLIMIT"            = 5
@@ -52,7 +53,6 @@ resource "azurerm_container_group" "cstrike" {
       "ADMIN_STEAM"         = "0:1:1234566"
       "MAP_AUTOTEAMBALANCE" = 1
       "USE_VOTEMAP"         = "y"
-      "ADMIN_STEAM"         = "martinsam"
       "RCON_PASSWORD"       = "123456789"
       #"SERVER_PASSWORD"     = "abcdefghijk"
     }
