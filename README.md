@@ -78,3 +78,20 @@ This project is based on [counter-strike-docker](https://github.com/artem-panche
 - Docker compose.
 - Added new maps.
 - Added new parameters in run script.
+
+## TIPS
+
+### How to add new bots?
+Run in the console:
+```rcon_password "123456789"```
+then...
+```rcon "pb_passwordkey" "_pbadminpw"```
+then...
+```rcon "pb_password" "asdf"```
+then...
+```setinfo "_pbadminpw" "asdf"```
+
+then use commands:
+```pb add [skill [personality [team [model [name]]]]]```
+
+More details about pb commands [here](http://podbotmm.bots-united.com/doc_v3/html/pbmm_configuration.html)

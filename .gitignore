@@ -2,3 +2,4 @@
 /terraform/azure/terraform.tfstate.backup
 /terraform/azure/terraform.tfstate
 /terraform/azure/.terraform.tfstate.lock.info
+.env
