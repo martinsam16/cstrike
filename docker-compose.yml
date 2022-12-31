@@ -1,10 +1,12 @@
-version: "2.0"
+version: "3.8"
 services:
   counter-strike:
+    container_name: cs16
     build: .
     env_file:
       - .env
     ports:
-      - "26900:26900"
-      - "27020:27020"
+      - "26900:26900/udp"
+      - "27020:27020/udp"
+      - "27015:27015/udp"
       - "27015:27015"
